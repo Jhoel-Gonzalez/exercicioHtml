@@ -4,31 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stye.css">
     <title>Receita de Tacacá</title>
 </head>
 
 <body>
     <header>
-        <h1>Tacacá</h1>
-
-        <ul>
-            <li><a href="#prato">Sobre o prato</a></br></li>
-            <li><a href="#in">Ingredientes</a></br></li>
-            <li><a href="#modo">Modo de preparo</a></li>
-        </ul>
-
+        <nav>
+            <a class="ancora" href="#sobre-o-prato">Sobre o prato</a>
+            <a class="ancora" href="#ingredientes">Ingredientes</a>
+            <a class="ancora" href="#modo">Modo de preparo</a>
+        </nav>
     </header>
 
     <main>
-        <section>
-            <img src="img/tigelaTacaca.jpg" alt="Tigela com tacaca" width="500">
+        <section class="content-img">
+            <img class="image" src="img/tigelaTacaca.jpg" alt="Tigela com tacaca" width="500">
+            <h1 class="h1">Tacacá</h1>
         </section>
 
         <section>
+            <p class="author">Autor: Jhoel Gonzalez</p>
 
-            <h2 id="prato">Sobre o prato</h2>
+            <h3  class="h3" id="sobre-o-prato">Sobre o prato</h3>
 
-            <p>
+            <p class="paragraph">
                 O Tacacá é um prato típico da Região Amazônica de origem indígena.
                 É muito apreciado em várias localidades da região Norte do Brasil.
                 Preparado com um caldo amarelado, chamado tucupi.
@@ -41,15 +41,15 @@
             </p>
         </section>
 
-        <section>
+        <section class="iframe">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/tWcpDrKOVMQ" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
             </iframe>
         </section>
 
-        <section>
-            <h3 id="in">Ingredientes:</h3>
+        <section class="container">
+            <h2 class="h2" id="ingredientes">Ingredientes:</h2>
 
             <ul>
                 <li>4 xícaras (chá) de água</li>
@@ -63,7 +63,7 @@
                 <li>2 litros de tucupi</li>
             </ul>
 
-            <h3 id="modo">Modo de preparo:</h3>
+            <h2 class="h2" id="modo">Modo de preparo:</h2>
 
             <ol>
                 <li>Coloque o tucupi em uma panela com o alho bem amassado, o sal, a chicória e as pimentas.</li>
@@ -82,10 +82,12 @@
                     camarões.
                 </li>
             </ol>
+
+            <a href="#">VOLTAR PARA O TOPO</a>
         </section>
     </main>
 
-    <footer>
+    <footer class="rodape">
         <span>Jhoel G - Todos os Direitos Reservados - &copy; - 2020</span>
     </footer>
 </body>
