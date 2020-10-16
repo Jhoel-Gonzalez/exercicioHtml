@@ -1,5 +1,5 @@
 :root {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     background-color: #e4ea85;
 }
@@ -14,7 +14,7 @@
 
 .nav_barName {
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 900;
     margin: 0px 4px;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .titulo_primario {
-    font-weight: 800;
+    font-weight: 900;
     font-size: 89px;
     Line-Height: 79px;
     Color: #FFB300;
@@ -63,7 +63,7 @@
 .titulo_secundario {
     font-size: 34px;
     Color: #FFB300;
-    Font-Weight: Bold;
+    Font-Weight: 700;
     margin: 30px;
 }
 
@@ -72,7 +72,7 @@
     margin: 50px;
     Color: #000000;
     font-size: 21px;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .author {
@@ -80,7 +80,7 @@
     margin: 50px;
     Color: #000000;
     font-size: 21px;
-    font-weight: Bold;
+    font-weight: 700;
 }
 
 .paragraph {
@@ -131,6 +131,6 @@
     background-color: #f0c562;
     border-radius: 4px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 20px;
 }
